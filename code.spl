@@ -1,0 +1,19 @@
+# Check if name is correct.
+
+import "other/version.spl"
+
+function start:
+    print("Please write Jacob (", version, ")", " : ")
+end
+
+start()
+
+var entree = input(">")
+
+if (entree == "Jacob"):
+    print("Congrats !")
+fi
+
+if (entree != "Jacob"):
+    print("Oh no, you don't write Jacob but : ", entree)
+fi
