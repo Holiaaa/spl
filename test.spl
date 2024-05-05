@@ -1,0 +1,10 @@
+var version = "1.0"
+print("Salut version ", version)
+
+var prenom = input("Prenom>")
+var nomdefamille = input("Nom De Famille>")
+
+print("Salut ", prenom, " ", nomdefamille)
+system("pause")
+
+system("echo Made in SPL! > readme.txt")
